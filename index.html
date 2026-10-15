@@ -1,13 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width,initial-scale=1" name="viewport"/>
-  <meta content="Portfolio in geospatial analysis, Swedish language review and data quality." name="description"/>
-  <title>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Portfolio in geospatial analysis, Swedish language review and data quality." name="description"/>
+<title>
    GIS &amp; Language Quality | Portfolio
   </title>
-  <style>
+<style>
    :root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#183040;background:#f5f8fa}
 *{box-sizing:border-box}
 body{margin:0}
@@ -33,8 +34,7 @@ footer{border-top:1px solid #dce7ec;padding:35px 24px;text-align:center;color:#6
 @media(max-width:650px){.cards{grid-template-columns:1fr}
 .hero{padding:55px 0}
 nav{align-items:flex-start;flex-direction:column}
-nav a{margin:0 18px 0 0}
-  
+nav a{margin:0 18px 0 0}}
 .sample-panel{background:#fff;border:1px solid #dce7ec;border-radius:12px;padding:25px;margin:20px 0}
 .sample-panel h4{margin:0 0 12px;color:#183040}
 .sample-text{white-space:pre-line;line-height:1.8;color:#344e5d;font-size:.97rem}
@@ -42,214 +42,224 @@ nav a{margin:0 18px 0 0}
 .sample-note p{margin:8px 0}
 .sample-meta{color:#607581;font-size:.9rem}
 @media(max-width:650px){.sample-panel{padding:18px}}
-  </style>
- </head>
- <body>
-  <header>
-   <nav>
-    <strong>
+  
+.qa-table{width:100%;border-collapse:collapse;margin:18px 0;font-size:.94rem}
+.qa-table th,.qa-table td{border-bottom:1px solid #dce7ec;padding:12px 10px;text-align:left;vertical-align:top;line-height:1.55}
+.qa-table th{background:#edf5f8;color:#183040}
+.qa-table td:first-child{width:40px;font-weight:700}
+.qa-table td:nth-child(2){width:25%}
+.qa-table td:nth-child(3){width:27%}
+.qa-table-wrap{overflow-x:auto}
+.qa-table{min-width:620px}
+.qa-muted{color:#607581;font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<strong>
      PORTFOLIO
     </strong>
-    <div>
-     <a href="#gis">
+<div>
+<a href="#gis">
       GIS
      </a>
-     <a href="#language">
+<a href="#language">
       Language &amp; QA
      </a>
-     <a href="#about">
+<a href="#about">
       About
      </a>
+</div>
+</nav>
+</header>
+<main>
+<div class="hero">
+<div class="eyebrow">
+     Geospatial analysis · Swedish language quality
     </div>
-   </nav>
-  </header>
-  <main>
-   <div class="hero">
-    <div class="eyebrow">
-     Geospatial analysis &middot; Swedish language quality
-    </div>
-    <h1>
+<h1>
      Making information
      <br/>
      clear, accurate &amp; useful.
     </h1>
-    <p class="lead">
+<p class="lead">
      A portfolio of geospatial projects, Swedish-language proofreading and structured content evaluation. Combining technical training with a careful eye for detail.
     </p>
-    <a class="button" href="#work">
-     Explore my work &darr;
+<a class="button" href="#work">
+     Explore my work ↓
     </a>
-   </div>
-   <section id="work">
-    <h2>
+</div>
+<section id="work">
+<h2>
      Areas of work
     </h2>
-    <div class="cards">
-     <article class="card">
-      <div class="symbol">
+<div class="cards">
+<article class="card">
+<div class="symbol">
        ◈
       </div>
-      <h3>
+<h3>
        GIS &amp; Geospatial Analysis
       </h3>
-      <p>
+<p>
        Spatial data, mapping, site constraints and geographic information workflows.
       </p>
-      <a href="#gis">
-       View GIS projects &rarr;
+<a href="#gis">
+       View GIS projects →
       </a>
-     </article>
-     <article class="card">
-      <div class="symbol">
+</article>
+<article class="card">
+<div class="symbol">
        ✎
       </div>
-      <h3>
+<h3>
        Swedish Language &amp; Quality Assurance
       </h3>
-      <p>
+<p>
        Proofreading, localisation checks and structured evaluation of Swedish-language content.
       </p>
-      <a href="#language">
-       View language samples &rarr;
+<a href="#language">
+       View language samples →
       </a>
-     </article>
-    </div>
-   </section>
-   <section id="gis">
-    <div class="eyebrow">
+</article>
+</div>
+</section>
+<section id="gis">
+<div class="eyebrow">
      GIS Portfolio
     </div>
-    <h2>
+<h2>
      Geospatial projects
     </h2>
-    <article class="project">
-     <h3>
-      Gozo Site Constraint Assessment &mdash; G&hstrok;asri, Malta
+<article class="project">
+<h3>
+      Gozo Site Constraint Assessment — Għasri, Malta
      </h3>
-     <p>
+<p>
       Preliminary site screening of a 1.04 ha candidate site using a 500 m study area. The assessment combines planning and environmental constraints, terrain analysis and proximity to electricity infrastructure.
      </p>
-     <img alt="Gozo site constraint map showing the candidate site, landscape protection, study area and electricity infrastructure" loading="lazy" src="gozo-1.jpg" style="width:100%;height:auto;border-radius:8px;border:1px solid #dce7ec"/>
-     <p>
-      <strong>
+<img alt="Gozo site constraint map showing the candidate site, landscape protection, study area and electricity infrastructure" loading="lazy" src="gozo-1.jpg" style="width:100%;height:auto;border-radius:8px;border:1px solid #dce7ec"/>
+<p>
+<strong>
        Method:
       </strong>
       Official spatial datasets were reviewed, reprojected to ETRS89 / UTM zone 33N and prepared in a GeoPackage. Spatial intersection and shortest-distance analyses were used alongside slope analysis derived from a 1 m DTM.
      </p>
-     <p>
-      <strong>
+<p>
+<strong>
        Findings:
       </strong>
-      Mean slope was 3.18&deg;; the nearest substation was 608 m away and the nearest 11 kV line 876 m away. The candidate site intersects an Area of Landscape Sensitivity (ALS), while no Area of High Landscape Sensitivity (AHLS) intersection was found. Landscape protection was the principal constraint identified in this preliminary screening.
+      Mean slope was 3.18°; the nearest substation was 608 m away and the nearest 11 kV line 876 m away. The candidate site intersects an Area of Landscape Sensitivity (ALS), while no Area of High Landscape Sensitivity (AHLS) intersection was found. Landscape protection was the principal constraint identified in this preliminary screening.
      </p>
-     <img alt="Gozo project methodology, terrain and planning analysis" loading="lazy" src="gozo-2.jpg" style="width:100%;height:auto;border-radius:8px;border:1px solid #dce7ec"/>
-     <p>
-      <span class="tag">
+<img alt="Gozo project methodology, terrain and planning analysis" loading="lazy" src="gozo-2.jpg" style="width:100%;height:auto;border-radius:8px;border:1px solid #dce7ec"/>
+<p>
+<span class="tag">
        QGIS
       </span>
-      <span class="tag">
+<span class="tag">
        Spatial analysis
       </span>
-      <span class="tag">
+<span class="tag">
        Slope analysis
       </span>
-      <span class="tag">
+<span class="tag">
        Cartography
       </span>
-     </p>
-     <a class="button" href="gozo-site-constraint-assessment.pdf" rel="noopener" target="_blank">
-      View full project report (PDF) &nearrow;
+</p>
+<a class="button" href="gozo-site-constraint-assessment.pdf" rel="noopener" target="_blank">
+      View full project report (PDF) ↗
      </a>
-     <p style="font-size:.88rem">
+<p style="font-size:.88rem">
       Preliminary screening only; not a planning approval or final suitability determination. Data sources: Planning Authority, Malta Data Portal, Enemalta and DTM 2018, as credited in the report.
      </p>
-    </article>
-   </section>
-   <section id="language">
-    <div class="eyebrow">
+</article>
+</section>
+<section id="language">
+<div class="eyebrow">
      Language Portfolio
     </div>
-    <h2>
+<h2>
      Swedish language &amp; quality
     </h2>
-    <p>
+<p>
      Selected self-directed samples demonstrating Swedish proofreading, editorial judgement and quality assurance. These are simulated exercises, not commissioned client work.
     </p>
-    <article class="project" id="proofreading">
-     <h3>
+<article class="project" id="proofreading">
+<h3>
       Swedish Proofreading &amp; Editorial Review
      </h3>
-     <p class="sample-meta">
-      Sample 01 &middot; Swedish web article &middot; Simulated editorial assignment
+<p class="sample-meta">
+      Sample 01 · Swedish web article · Simulated editorial assignment
      </p>
-     <p>
-      <strong>
+<p>
+<strong>
        Brief:
       </strong>
       Proofread a Swedish article about digital services for spelling, grammar, punctuation and clarity while preserving its original message and tone.
      </p>
-     <div class="sample-panel">
-      <h4>
-       Original text &middot; Before editing
+<div class="sample-panel">
+<h4>
+       Original text · Before editing
       </h4>
-      <p>
-       <strong>
-        Digitala tj&auml;nster och anv&auml;ndarv&auml;nlighet
+<p>
+<strong>
+        Digitala tjänster och användarvänlighet
        </strong>
-      </p>
-      <div class="sample-text" id="proof-original">
-       Digitala tj&auml;nster har under dom senaste &aring;ren blivit en allt viktigare del av v&aring;ran vardag. Idag anv&auml;nder m&aring;nga m&auml;nniskor olika appar och webbaserade plattformar f&ouml;r att hantera allt ifr&aring;n bank&auml;renden till att boka l&auml;karbes&ouml;k.
+</p>
+<div class="sample-text" id="proof-original">
+       Digitala tjänster har under dom senaste åren blivit en allt viktigare del av våran vardag. Idag använder många människor olika appar och webbaserade plattformar för att hantera allt ifrån bankärenden till att boka läkarbesök.
 
-Trots att tekniken utvecklas snabbt, finns det fortfarande flera utmaningar som f&ouml;retag beh&ouml;ver ta h&auml;nsyn till. En av dom vanligaste problemen &auml;r att anv&auml;ndare ofta upplever att digitala tj&auml;nster &auml;r sv&aring;ra att f&ouml;rst&aring; sig p&aring;. Detta kan bero p&aring; otydliga instruktioner, komplicerade menyer eller att informationen inte &auml;r tillr&auml;ckligt l&auml;tt tillg&auml;nglig.
+Trots att tekniken utvecklas snabbt, finns det fortfarande flera utmaningar som företag behöver ta hänsyn till. En av dom vanligaste problemen är att användare ofta upplever att digitala tjänster är svåra att förstå sig på. Detta kan bero på otydliga instruktioner, komplicerade menyer eller att informationen inte är tillräckligt lätt tillgänglig.
 
-F&ouml;r att skapa en b&auml;ttre anv&auml;ndarupplevelse &auml;r det viktigt att f&ouml;retag regelbundet testar sina tj&auml;nster och lyssnar p&aring; kundernas feedback. Genom att analysera hur anv&auml;ndarna navigerar p&aring; en webbplats, kan man identifiera problem och f&ouml;rb&auml;ttra funktionaliteten. Det &auml;r &auml;ven viktigt att s&auml;kerst&auml;lla att inneh&aring;llet &auml;r korrekt, uppdaterat och anpassad efter m&aring;lgruppen.
+För att skapa en bättre användarupplevelse är det viktigt att företag regelbundet testar sina tjänster och lyssnar på kundernas feedback. Genom att analysera hur användarna navigerar på en webbplats, kan man identifiera problem och förbättra funktionaliteten. Det är även viktigt att säkerställa att innehållet är korrekt, uppdaterat och anpassad efter målgruppen.
 
-En annan viktig aspekt &auml;r tillg&auml;nglighet. Personer med olika funktionsneds&auml;ttningar ska kunna anv&auml;nda digitala tj&auml;nster p&aring; samma villkor som andra. Det inneb&auml;r bland annat att texten ska vara l&auml;ttl&auml;st, att f&auml;rgkontraster &auml;r tillr&auml;ckligt tydliga och att webbplatsen fungerar med olika hj&auml;lpmedel.
+En annan viktig aspekt är tillgänglighet. Personer med olika funktionsnedsättningar ska kunna använda digitala tjänster på samma villkor som andra. Det innebär bland annat att texten ska vara lättläst, att färgkontraster är tillräckligt tydliga och att webbplatsen fungerar med olika hjälpmedel.
 
-Sammanfattningsvis &auml;r anv&auml;ndarv&auml;nlighet och tillg&auml;nglighet tv&aring; avg&ouml;rande faktorer f&ouml;r att digitala tj&auml;nster ska fungera effektivt. F&ouml;retag som investerar i dessa omr&aring;den har st&ouml;rre m&ouml;jligheter att skapa l&aring;ngsiktiga kundrelationer och &ouml;ka deras konkurrenskraft.
+Sammanfattningsvis är användarvänlighet och tillgänglighet två avgörande faktorer för att digitala tjänster ska fungera effektivt. Företag som investerar i dessa områden har större möjligheter att skapa långsiktiga kundrelationer och öka deras konkurrenskraft.
       </div>
-     </div>
-     <div class="sample-panel">
-      <h4>
-       Reviewed text &middot; Final version
+</div>
+<div class="sample-panel">
+<h4>
+       Reviewed text · Final version
       </h4>
-      <p>
-       <strong>
-        Digitala tj&auml;nster och anv&auml;ndarv&auml;nlighet
+<p>
+<strong>
+        Digitala tjänster och användarvänlighet
        </strong>
-      </p>
-      <div class="sample-text" id="proof-final">
-       Digitala tj&auml;nster har under de senaste &aring;ren blivit en allt viktigare del av v&aring;r vardag. Idag anv&auml;nder m&aring;nga m&auml;nniskor olika appar och webbaserade plattformar f&ouml;r att hantera allt fr&aring;n bank&auml;renden till att boka l&auml;karbes&ouml;k.
+</p>
+<div class="sample-text" id="proof-final">
+       Digitala tjänster har under de senaste åren blivit en allt viktigare del av vår vardag. Idag använder många människor olika appar och webbaserade plattformar för att hantera allt från bankärenden till att boka läkarbesök.
 
-Trots att tekniken utvecklas snabbt finns det fortfarande flera utmaningar som f&ouml;retag beh&ouml;ver ta h&auml;nsyn till. Ett av de vanligaste problemen &auml;r att anv&auml;ndare ofta upplever att digitala tj&auml;nster &auml;r sv&aring;ra att f&ouml;rst&aring; och anv&auml;nda. Detta kan bero p&aring; otydliga instruktioner, komplicerade menyer eller att informationen inte &auml;r tillr&auml;ckligt l&auml;ttillg&auml;nglig.
+Trots att tekniken utvecklas snabbt finns det fortfarande flera utmaningar som företag behöver ta hänsyn till. Ett av de vanligaste problemen är att användare ofta upplever att digitala tjänster är svåra att förstå och använda. Detta kan bero på otydliga instruktioner, komplicerade menyer eller att informationen inte är tillräckligt lättillgänglig.
 
-F&ouml;r att skapa en b&auml;ttre anv&auml;ndarupplevelse &auml;r det viktigt att f&ouml;retag regelbundet testar sina tj&auml;nster och lyssnar p&aring; kundernas feedback. Genom att analysera hur anv&auml;ndarna navigerar p&aring; en webbplats kan man identifiera problem och f&ouml;rb&auml;ttra funktionaliteten. Det &auml;r &auml;ven viktigt att s&auml;kerst&auml;lla att inneh&aring;llet &auml;r korrekt, uppdaterat och anpassat efter m&aring;lgruppen.
+För att skapa en bättre användarupplevelse är det viktigt att företag regelbundet testar sina tjänster och lyssnar på kundernas feedback. Genom att analysera hur användarna navigerar på en webbplats kan man identifiera problem och förbättra funktionaliteten. Det är även viktigt att säkerställa att innehållet är korrekt, uppdaterat och anpassat efter målgruppen.
 
-En annan viktig aspekt &auml;r tillg&auml;nglighet. Personer med olika funktionsneds&auml;ttningar ska kunna anv&auml;nda digitala tj&auml;nster p&aring; samma villkor som andra. Det inneb&auml;r bland annat att texten ska vara l&auml;ttl&auml;st, att f&auml;rgkontraster &auml;r tillr&auml;ckligt tydliga och att webbplatsen fungerar med olika hj&auml;lpmedel.
+En annan viktig aspekt är tillgänglighet. Personer med olika funktionsnedsättningar ska kunna använda digitala tjänster på samma villkor som andra. Det innebär bland annat att texten ska vara lättläst, att färgkontraster är tillräckligt tydliga och att webbplatsen fungerar med olika hjälpmedel.
 
-Sammanfattningsvis &auml;r anv&auml;ndarv&auml;nlighet och tillg&auml;nglighet tv&aring; avg&ouml;rande faktorer f&ouml;r att digitala tj&auml;nster ska fungera effektivt. F&ouml;retag som investerar i dessa omr&aring;den har st&ouml;rre m&ouml;jligheter att skapa l&aring;ngsiktiga kundrelationer och &ouml;ka sin konkurrenskraft.
+Sammanfattningsvis är användarvänlighet och tillgänglighet två avgörande faktorer för att digitala tjänster ska fungera effektivt. Företag som investerar i dessa områden har större möjligheter att skapa långsiktiga kundrelationer och öka sin konkurrenskraft.
       </div>
-     </div>
-     <div class="sample-note">
-      <strong>
+</div>
+<div class="sample-note">
+<strong>
        Editorial decisions
       </strong>
-      <p>
+<p>
        Corrections included informal pronouns (
        <em>
-        dom &rarr; de
+        dom → de
        </em>
        ), agreement (
        <em>
-        anpassad &rarr; anpassat
+        anpassad → anpassat
        </em>
        ;
        <em>
-        en &rarr; ett
+        en → ett
        </em>
        ), compound spelling (
        <em>
-        l&auml;tt tillg&auml;nglig &rarr; l&auml;ttillg&auml;nglig
+        lätt tillgänglig → lättillgänglig
        </em>
        ), punctuation and clearer phrasing. The reflexive pronoun was corrected from
        <em>
@@ -261,8 +271,8 @@ Sammanfattningsvis &auml;r anv&auml;ndarv&auml;nlighet och tillg&auml;nglighet t
        </em>
        in the final paragraph.
       </p>
-      <p>
-       <strong>
+<p>
+<strong>
         Terminology consideration:
        </strong>
        I proposed
@@ -271,76 +281,80 @@ Sammanfattningsvis &auml;r anv&auml;ndarv&auml;nlighet och tillg&auml;nglighet t
        </em>
        as a potentially more inclusive-sounding alternative to
        <em>
-        funktionsneds&auml;ttningar
+        funktionsnedsättningar
        </em>
        . Because the latter is established terminology in Swedish accessibility contexts, the final version retains it; a change would be discussed with the client and checked against their style guide.
       </p>
-     </div>
-     <p class="sample-meta">
-      <strong>
+</div>
+<p class="sample-meta">
+<strong>
        Process note:
       </strong>
       The first independent review was completed by the portfolio owner. The final text incorporates subsequent feedback on one missed agreement error and a punctuation improvement. The terminology discussion reflects the author's own editorial judgement.
      </p>
-     <p>
-      <span class="tag">
+<p>
+<span class="tag">
        Swedish proofreading
       </span>
-      <span class="tag">
+<span class="tag">
        Grammar
       </span>
-      <span class="tag">
+<span class="tag">
        Editorial review
       </span>
-      <span class="tag">
+<span class="tag">
        Terminology
       </span>
-     </p>
-    </article>
-    <div class="cards">
-     <article class="card">
-      <h3>
-       Localisation QA
-      </h3>
-      <p>
-       Reviewing Swedish UI text for natural phrasing, consistency and clarity.
-      </p>
-      <span class="tag">
-       Sample in preparation
-      </span>
-     </article>
-     <article class="card">
-      <h3>
-       AI Response Evaluation
-      </h3>
-      <p>
-       Comparing example responses against a clear assessment rubric.
-      </p>
-      <span class="tag">
-       Sample in preparation
-      </span>
-     </article>
-    </div>
-   </section>
-   <section id="about">
-    <div class="eyebrow">
+</p>
+</article>
+
+<article class="project" id="localisation">
+<h3>Swedish Localisation QA – Travel Booking App</h3>
+<p class="sample-meta">Sample 02 · Swedish user interface · Simulated localisation review</p>
+<p><strong>Brief:</strong> Review 12 English-to-Swedish interface strings for meaning, natural language, consistency and usability. Keep suitable translations unchanged, and flag potential improvements where context matters.</p>
+<div class="sample-note"><strong>Review approach</strong><p>The initial review was performed independently. The table records the original Swedish strings and my initial decisions, including one alternative I preferred in my reviewer comment. Additional observations made after feedback are separated below.</p></div>
+<div class="qa-table-wrap"><table class="qa-table"><thead><tr><th>#</th><th>English source</th><th>Original Swedish</th><th>My initial review</th></tr></thead><tbody>
+<tr><td>1</td><td>Find your next getaway</td><td>Hitta din nästa flykt</td><td>Suggested “Hitta din nästa tillflykt”, but noted that “Hitta ditt nästa resmål” sounded more natural to me as a customer.</td></tr>
+<tr><td>2</td><td>Book your stay</td><td>Boka din vistelse</td><td>Approved unchanged.</td></tr>
+<tr><td>3</td><td>Check availability</td><td>Kontrollera tillgänglighet</td><td>Approved unchanged.</td></tr>
+<tr><td>4</td><td>Your booking has been confirmed</td><td>Din bokning har blivit konfirmerad</td><td><strong>Din bokning är bekräftad</strong></td></tr>
+<tr><td>5</td><td>Free cancellation until 24 hours before arrival</td><td>Gratis avbokning upp till 24 timmar innan ankomst</td><td>Approved unchanged.</td></tr>
+<tr><td>6</td><td>Sign in to manage your bookings</td><td>Signera in för att hantera dina bokningar</td><td><strong>Logga in för att hantera dina bokningar</strong></td></tr>
+<tr><td>7</td><td>Save up to 30% on selected hotels</td><td>Spara upp till 30 % på utvalda hotell</td><td>Approved unchanged.</td></tr>
+<tr><td>8</td><td>No rooms available for your selected dates</td><td>Inga rum tillgängliga för dina selekterade datum</td><td><strong>Inga rum tillgängliga för dina valda datum</strong></td></tr>
+<tr><td>9</td><td>Something went wrong. Please try again.</td><td>Något gick fel. Vänligen försök igen.</td><td>Approved unchanged.</td></tr>
+<tr><td>10</td><td>Continue as guest</td><td>Fortsätt som gäst</td><td>Approved unchanged.</td></tr>
+<tr><td>11</td><td>Your payment could not be processed</td><td>Din betalning kunde inte processeras</td><td><strong>Din betalning kunde inte behandlas</strong></td></tr>
+<tr><td>12</td><td>We value your feedback</td><td>Vi värderar din återkoppling</td><td><strong>Vi uppskattar din feedback</strong></td></tr>
+</tbody></table></div>
+<div class="sample-note"><strong>Editorial judgement and follow-up</strong>
+<p><strong>Natural Swedish:</strong> I recognised literal translations such as “Signera in”, “selekterade datum” and “processeras” and suggested more idiomatic Swedish.</p>
+<p><strong>User perspective:</strong> For “Find your next getaway”, my reviewer note preferred “Hitta ditt nästa resmål” over my first suggestion, “Hitta din nästa tillflykt”. The final recommendation would be “Hitta ditt nästa resmål”, subject to the intended marketing meaning.</p>
+<p><strong>Context-dependent choice:</strong> I initially approved “Kontrollera tillgänglighet” because it felt familiar from booking websites. After discussion, I would still consider it acceptable, while noting that “Se lediga rum” may be clearer if the button specifically checks room availability. A screenshot or UI context would help determine the best wording.</p>
+<p><strong>Further review:</strong> “Kostnadsfri avbokning senast 24 timmar före ankomst” may communicate the cancellation deadline more precisely than the original. “Försök igen” may suit a concise app tone better than “Vänligen försök igen”. These are follow-up suggestions, not corrections identified in my initial review.</p>
+</div>
+<p class="sample-meta"><strong>Process note:</strong> Simulated material, not a client assignment. Initial review by the portfolio owner; the follow-up notes incorporate subsequent discussion and feedback. No real app UI was provided, so some choices remain context-dependent.</p>
+<p><span class="tag">Swedish localisation</span><span class="tag">UI copy</span><span class="tag">Terminology</span><span class="tag">Linguistic QA</span></p>
+</article><div class="cards"><article class="card"><h3>AI Response Evaluation</h3><p>Comparing example responses against a clear assessment rubric.</p><span class="tag">Sample in preparation</span></article></div></section>
+<section id="about">
+<div class="eyebrow">
      About
     </div>
-    <h2>
+<h2>
      Background
     </h2>
-    <p>
+<p>
      Training in GIS and technical illustration, combined with freelance experience in Swedish-language content and AI-related evaluation projects. Interested in accuracy, information quality and clear communication.
     </p>
-    <p>
-     <em>
+<p>
+<em>
       Contact details and links can be added before publication.
      </em>
-    </p>
-   </section>
-  </main>
-  <footer>
-   GIS &middot; Swedish language review &middot; Information quality
+</p>
+</section>
+</main>
+<footer>
+   GIS · Swedish language review · Information quality
   </footer>
- </body>
+</body>
 </html>
