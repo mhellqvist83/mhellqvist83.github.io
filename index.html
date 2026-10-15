@@ -34,6 +34,14 @@ footer{border-top:1px solid #dce7ec;padding:35px 24px;text-align:center;color:#6
 .hero{padding:55px 0}
 nav{align-items:flex-start;flex-direction:column}
 nav a{margin:0 18px 0 0}
+  
+.sample-panel{background:#fff;border:1px solid #dce7ec;border-radius:12px;padding:25px;margin:20px 0}
+.sample-panel h4{margin:0 0 12px;color:#183040}
+.sample-text{white-space:pre-line;line-height:1.8;color:#344e5d;font-size:.97rem}
+.sample-note{background:#edf5f8;border-left:3px solid #17617b;padding:18px 22px;border-radius:6px;margin:20px 0}
+.sample-note p{margin:8px 0}
+.sample-meta{color:#607581;font-size:.9rem}
+@media(max-width:650px){.sample-panel{padding:18px}}
   </style>
  </head>
  <body>
@@ -165,20 +173,131 @@ nav a{margin:0 18px 0 0}
      Swedish language &amp; quality
     </h2>
     <p>
-     Sample exercises will demonstrate a structured approach to Swedish proofreading, localisation QA and AI response evaluation. These will be clearly marked as self-created samples, not client work.
+     Selected self-directed samples demonstrating Swedish proofreading, editorial judgement and quality assurance. These are simulated exercises, not commissioned client work.
     </p>
-    <div class="cards">
-     <article class="card">
-      <h3>
-       Proofreading
-      </h3>
+    <article class="project" id="proofreading">
+     <h3>
+      Swedish Proofreading &amp; Editorial Review
+     </h3>
+     <p class="sample-meta">
+      Sample 01 &middot; Swedish web article &middot; Simulated editorial assignment
+     </p>
+     <p>
+      <strong>
+       Brief:
+      </strong>
+      Proofread a Swedish article about digital services for spelling, grammar, punctuation and clarity while preserving its original message and tone.
+     </p>
+     <div class="sample-panel">
+      <h4>
+       Original text &middot; Before editing
+      </h4>
       <p>
-       Original and corrected Swedish text, with explanations of selected edits.
+       <strong>
+        Digitala tj&auml;nster och anv&auml;ndarv&auml;nlighet
+       </strong>
       </p>
+      <div class="sample-text" id="proof-original">
+       Digitala tj&auml;nster har under dom senaste &aring;ren blivit en allt viktigare del av v&aring;ran vardag. Idag anv&auml;nder m&aring;nga m&auml;nniskor olika appar och webbaserade plattformar f&ouml;r att hantera allt ifr&aring;n bank&auml;renden till att boka l&auml;karbes&ouml;k.
+
+Trots att tekniken utvecklas snabbt, finns det fortfarande flera utmaningar som f&ouml;retag beh&ouml;ver ta h&auml;nsyn till. En av dom vanligaste problemen &auml;r att anv&auml;ndare ofta upplever att digitala tj&auml;nster &auml;r sv&aring;ra att f&ouml;rst&aring; sig p&aring;. Detta kan bero p&aring; otydliga instruktioner, komplicerade menyer eller att informationen inte &auml;r tillr&auml;ckligt l&auml;tt tillg&auml;nglig.
+
+F&ouml;r att skapa en b&auml;ttre anv&auml;ndarupplevelse &auml;r det viktigt att f&ouml;retag regelbundet testar sina tj&auml;nster och lyssnar p&aring; kundernas feedback. Genom att analysera hur anv&auml;ndarna navigerar p&aring; en webbplats, kan man identifiera problem och f&ouml;rb&auml;ttra funktionaliteten. Det &auml;r &auml;ven viktigt att s&auml;kerst&auml;lla att inneh&aring;llet &auml;r korrekt, uppdaterat och anpassad efter m&aring;lgruppen.
+
+En annan viktig aspekt &auml;r tillg&auml;nglighet. Personer med olika funktionsneds&auml;ttningar ska kunna anv&auml;nda digitala tj&auml;nster p&aring; samma villkor som andra. Det inneb&auml;r bland annat att texten ska vara l&auml;ttl&auml;st, att f&auml;rgkontraster &auml;r tillr&auml;ckligt tydliga och att webbplatsen fungerar med olika hj&auml;lpmedel.
+
+Sammanfattningsvis &auml;r anv&auml;ndarv&auml;nlighet och tillg&auml;nglighet tv&aring; avg&ouml;rande faktorer f&ouml;r att digitala tj&auml;nster ska fungera effektivt. F&ouml;retag som investerar i dessa omr&aring;den har st&ouml;rre m&ouml;jligheter att skapa l&aring;ngsiktiga kundrelationer och &ouml;ka deras konkurrenskraft.
+      </div>
+     </div>
+     <div class="sample-panel">
+      <h4>
+       Reviewed text &middot; Final version
+      </h4>
+      <p>
+       <strong>
+        Digitala tj&auml;nster och anv&auml;ndarv&auml;nlighet
+       </strong>
+      </p>
+      <div class="sample-text" id="proof-final">
+       Digitala tj&auml;nster har under de senaste &aring;ren blivit en allt viktigare del av v&aring;r vardag. Idag anv&auml;nder m&aring;nga m&auml;nniskor olika appar och webbaserade plattformar f&ouml;r att hantera allt fr&aring;n bank&auml;renden till att boka l&auml;karbes&ouml;k.
+
+Trots att tekniken utvecklas snabbt finns det fortfarande flera utmaningar som f&ouml;retag beh&ouml;ver ta h&auml;nsyn till. Ett av de vanligaste problemen &auml;r att anv&auml;ndare ofta upplever att digitala tj&auml;nster &auml;r sv&aring;ra att f&ouml;rst&aring; och anv&auml;nda. Detta kan bero p&aring; otydliga instruktioner, komplicerade menyer eller att informationen inte &auml;r tillr&auml;ckligt l&auml;ttillg&auml;nglig.
+
+F&ouml;r att skapa en b&auml;ttre anv&auml;ndarupplevelse &auml;r det viktigt att f&ouml;retag regelbundet testar sina tj&auml;nster och lyssnar p&aring; kundernas feedback. Genom att analysera hur anv&auml;ndarna navigerar p&aring; en webbplats kan man identifiera problem och f&ouml;rb&auml;ttra funktionaliteten. Det &auml;r &auml;ven viktigt att s&auml;kerst&auml;lla att inneh&aring;llet &auml;r korrekt, uppdaterat och anpassat efter m&aring;lgruppen.
+
+En annan viktig aspekt &auml;r tillg&auml;nglighet. Personer med olika funktionsneds&auml;ttningar ska kunna anv&auml;nda digitala tj&auml;nster p&aring; samma villkor som andra. Det inneb&auml;r bland annat att texten ska vara l&auml;ttl&auml;st, att f&auml;rgkontraster &auml;r tillr&auml;ckligt tydliga och att webbplatsen fungerar med olika hj&auml;lpmedel.
+
+Sammanfattningsvis &auml;r anv&auml;ndarv&auml;nlighet och tillg&auml;nglighet tv&aring; avg&ouml;rande faktorer f&ouml;r att digitala tj&auml;nster ska fungera effektivt. F&ouml;retag som investerar i dessa omr&aring;den har st&ouml;rre m&ouml;jligheter att skapa l&aring;ngsiktiga kundrelationer och &ouml;ka sin konkurrenskraft.
+      </div>
+     </div>
+     <div class="sample-note">
+      <strong>
+       Editorial decisions
+      </strong>
+      <p>
+       Corrections included informal pronouns (
+       <em>
+        dom &rarr; de
+       </em>
+       ), agreement (
+       <em>
+        anpassad &rarr; anpassat
+       </em>
+       ;
+       <em>
+        en &rarr; ett
+       </em>
+       ), compound spelling (
+       <em>
+        l&auml;tt tillg&auml;nglig &rarr; l&auml;ttillg&auml;nglig
+       </em>
+       ), punctuation and clearer phrasing. The reflexive pronoun was corrected from
+       <em>
+        deras
+       </em>
+       to
+       <em>
+        sin
+       </em>
+       in the final paragraph.
+      </p>
+      <p>
+       <strong>
+        Terminology consideration:
+       </strong>
+       I proposed
+       <em>
+        funktionsvariationer
+       </em>
+       as a potentially more inclusive-sounding alternative to
+       <em>
+        funktionsneds&auml;ttningar
+       </em>
+       . Because the latter is established terminology in Swedish accessibility contexts, the final version retains it; a change would be discussed with the client and checked against their style guide.
+      </p>
+     </div>
+     <p class="sample-meta">
+      <strong>
+       Process note:
+      </strong>
+      The first independent review was completed by the portfolio owner. The final text incorporates subsequent feedback on one missed agreement error and a punctuation improvement. The terminology discussion reflects the author's own editorial judgement.
+     </p>
+     <p>
       <span class="tag">
-       Sample in preparation
+       Swedish proofreading
       </span>
-     </article>
+      <span class="tag">
+       Grammar
+      </span>
+      <span class="tag">
+       Editorial review
+      </span>
+      <span class="tag">
+       Terminology
+      </span>
+     </p>
+    </article>
+    <div class="cards">
      <article class="card">
       <h3>
        Localisation QA
