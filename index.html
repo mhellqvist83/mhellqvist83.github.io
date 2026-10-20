@@ -52,6 +52,20 @@ nav a{margin:0 18px 0 0}}
 .qa-table-wrap{overflow-x:auto}
 .qa-table{min-width:620px}
 .qa-muted{color:#607581;font-size:.9rem}
+
+/* About section */
+.about-section{padding:8px 0 20px}
+.about-intro{font-size:1.12rem;max-width:830px;color:#344e5d}
+.about-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:28px 0}
+.about-columns>div,.about-opportunities{background:#fff;border:1px solid #dce7ec;border-radius:14px;padding:25px}
+.about-columns h3,.about-opportunities h3{margin-top:0;color:#183040}
+.about-columns p:last-child{margin-bottom:0}
+.about-opportunities{border-left:4px solid #17617b}
+.about-tags{margin:12px 0}
+.about-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px}
+.about-links a{color:#17617b;font-weight:650;text-decoration:none}
+.about-links a:hover{text-decoration:underline}
+@media(max-width:650px){.about-columns{grid-template-columns:1fr}.about-columns>div,.about-opportunities{padding:20px}}
 </style>
 </head>
 <body>
@@ -336,21 +350,28 @@ Sammanfattningsvis är användarvänlighet och tillgänglighet två avgörande f
 <p class="sample-meta"><strong>Process note:</strong> Simulated material, not a client assignment. Initial review by the portfolio owner; the follow-up notes incorporate subsequent discussion and feedback. No real app UI was provided, so some choices remain context-dependent.</p>
 <p><span class="tag">Swedish localisation</span><span class="tag">UI copy</span><span class="tag">Terminology</span><span class="tag">Linguistic QA</span></p>
 </article><div class="cards"><article class="card"><h3>AI Response Evaluation</h3><p>Comparing example responses against a clear assessment rubric.</p><span class="tag">Sample in preparation</span></article></div></section>
-<section id="about">
-<div class="eyebrow">
-     About
-    </div>
-<h2>
-     Background
-    </h2>
-<p>
-     Training in GIS and technical illustration, combined with freelance experience in Swedish-language content and AI-related evaluation projects. Interested in accuracy, information quality and clear communication.
-    </p>
-<p>
-<em>
-      Contact details and links can be added before publication.
-     </em>
-</p>
+<section id="about" class="about-section">
+ <div class="eyebrow">The person behind the work</div>
+ <h2>About Me</h2>
+ <p class="about-intro">I'm a native Swedish speaker based in Baħrija, Malta, with experience across AI quality evaluation, Swedish-language content and geographic information systems (GIS).</p>
+ <div class="about-columns">
+  <div>
+   <h3>Language &amp; AI quality</h3>
+   <p>Through freelance projects with RWS, DataAnnotation and Outlier, I've reviewed AI-generated responses for language quality, grammar, factual accuracy and safety. My work has also included checking audio transcriptions against recordings and assessing AI-generated images against their prompts.</p>
+   <p>Earlier, I wrote, translated and proofread Swedish and English content for TopContent and Raketech, including iGaming-related material.</p>
+  </div>
+  <div>
+   <h3>GIS &amp; geospatial work</h3>
+   <p>As a GIS Technician at Timrå Municipality in Sweden, I helped prepare geographic data for traffic planning analysis, created an ArcGIS StoryMap for the Torsboda project and updated municipal maps. I also mapped potential emergency drinking-water distribution points.</p>
+   <p>At Peroptyx, I evaluated the relevance and accuracy of map search results, including locations, categories and map presentation. My education includes GIS and technical illustration.</p>
+  </div>
+ </div>
+ <div class="about-opportunities">
+  <h3>What I'm looking for</h3>
+  <p>I'm interested in remote freelance and part-time opportunities in Swedish proofreading, localisation, editorial review, AI response evaluation, content quality and geospatial data.</p>
+  <div class="about-tags"><span class="tag">Swedish · Native</span><span class="tag">English</span><span class="tag">Based in Malta</span><span class="tag">Remote opportunities</span></div>
+  <div class="about-links"><a href="https://www.linkedin.com/in/maria-hellqvist-b1aab6133" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a><a href="mailto:hella_83@hotmail.com">Get in touch by email ↗</a></div>
+ </div>
 </section>
 </main>
 <footer>
